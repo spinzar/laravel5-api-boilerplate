@@ -50,6 +50,10 @@ I have tried to include only the packages thought absolutely necessary, so here 
  - [Bugsnag for Laravel](https://github.com/bugsnag/bugsnag-laravel)
  - [Sentry](https://github.com/getsentry/sentry-laravel)
 
+cp .env.example .env
+
+php artisan key:generate
+
 
 ## Todo
  - Add a sensible PUT implementation
